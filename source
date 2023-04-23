@@ -111,7 +111,7 @@ while wait(5) do
         
         local stringo = Game.Workspace.Ascend.BillboardGui.APLabel.Text
 
-        local split = str:split('+')
+        local split = stringo:split('+')
         local uno = split[1]
         local tuno = split[2]
         
