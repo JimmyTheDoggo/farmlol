@@ -108,6 +108,28 @@ end)
 
 while wait(5) do
     if on then
+        
+        local stringo = Game.Workspace.Ascend.BillboardGui.APLabel.Text
+
+        local split = str:split('+')
+        local uno = split[1]
+        local tuno = split[2]
+        
+        local string_fulltest = tuno:split(' ')
+        
+        local aTEXT = string_fulltest[1]
+        local aNUM = tonumber(aTEXT)
+        
+        if aNUM > 30 then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Prestige.Hitbox.CFrame
+            wait(0.1)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.UpgradeLuckPP.Hitbox.CFrame
+            wait(0.1)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.UpgradeSPMPP.Hitbox.CFrame
+            wait(0.1)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.UpgradePPMPP.Hitbox.CFrame
+        end
+        
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Sacrifice.Hitbox.CFrame
         wait(0.1)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.UpgradeLuck.Hitbox.CFrame
