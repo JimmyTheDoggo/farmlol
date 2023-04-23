@@ -109,7 +109,7 @@ end)
 while wait(5) do
     if on then
         
-        local stringo = Game.Workspace.Ascend.BillboardGui.PPLabel.Text
+        local stringo = Game.Workspace.Prestige.BillboardGui.PPLabel.Text
 
         local split = stringo:split('+')
         local uno = split[1]
