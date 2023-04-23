@@ -122,7 +122,7 @@ while wait(5) do
         local aTEXT = string_fulltest[1]
         local aNUM = tonumber(aTEXT)
         
-        if aNUM > 30 then
+        if aNUM > 500 then
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Prestige.Hitbox.CFrame
             wait(0.1)
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.UpgradeLuckPP.Hitbox.CFrame
