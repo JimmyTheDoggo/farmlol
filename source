@@ -109,6 +109,8 @@ end)
 while wait(5) do
     if on then
         
+        local lol = "balls"
+        
         local stringo = Game.Workspace.Prestige.BillboardGui.PPLabel.Text
 
         local split = stringo:split('+')
