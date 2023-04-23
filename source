@@ -75,6 +75,8 @@ s.Playing = true
 s.Looped = true
 s.Volume = 0
 
+ScreenGui.ResetOnSpawn = true
+
 local s2 = Instance.new("Sound", game.Workspace)
 s2.SoundId = "rbxassetid://6999993863"
 s2.Volume = 2
