@@ -116,6 +116,8 @@ while wait(5) do
         wait(0.1)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.UpgradeBr.Hitbox.CFrame
         wait(0.1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.UpgradeSPM.Hitbox.CFrame
+        wait(0.1)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0.340709388, 2.96552467, 39.7640152, -0.87377876, 8.71208794e-09, -0.486323625, 5.90006266e-08, 1, -8.80923849e-08, 0.486323625, -1.05666651e-07, -0.87377876)
         wait(0.1)
         game:GetService("ReplicatedStorage").Remotes.ManualSave:InvokeServer()
